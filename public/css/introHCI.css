@@ -9,9 +9,20 @@
 	color: #CC00AA;
 }
 
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+     border: 1px dotted gray;
+     padding: 20px;
+}
+
 .jumbotron {
 	position: relative;
 	background: none;
+}
+
+#project1.hover {
+     background-color: rgb(23, 255, 120)
 }
 
 .jumbotron:after {
@@ -28,6 +39,18 @@
 
 .jumbotron p {
      color: #6e6e6e;
+}
+
+.jumbotron p.active {
+     color: #1f6ddd;
+}
+
+.jumbotron h1.active {
+     color: #dd5b1f;
+}
+
+#testjs.movement{
+     color: rgb(75, 204, 0);
 }
 
 .project a {
